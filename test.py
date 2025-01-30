@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
 import numpy as np
 
 loan_approv_loaded_model = pickle.load(open("loan_prediction.sav", "rb"))
